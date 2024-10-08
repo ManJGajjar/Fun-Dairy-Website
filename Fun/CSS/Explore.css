@@ -1,0 +1,148 @@
+/* General Styles */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d7dbe0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 50px;
+    color: #111;
+    margin-left: 50px;
+}
+
+h1 span {
+    color: #ff00a6;
+}
+
+p {
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/* Navbar Styles */
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: rgb(255, 0, 200);
+}
+
+/* Styles for the Dairy Explore Section */
+.details{
+    margin-left: 5.5%;
+    margin-top: 2.5%;
+}
+
+.details h1{
+    font-size: 75px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+.details p{
+    color: #555;
+    line-height: 22px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.detail a{
+    background: #212121;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+mark{
+    background-color: yellow;
+    color: #000;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.image-container img {
+    margin-bottom: 20px;
+    border: 2px solid #ff00a6;
+    padding: 5px;
+    border-radius: 5px;
+    width: 200px;
+    height: auto;
+}
+
+.text-container {
+    flex: 2;
+    padding-left: 40px;
+}
+
+.text-container h2 {
+    font-size: 30px;
+    color: #111;
+    margin-bottom: 20px;
+}
+
+.text-container p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.text-container p .bold {
+    font-weight: bold;
+}
+
+.text-container p .italic {
+    font-style: italic;
+}
+
+/* Contact Info Styles */
+.contact-info {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.contact-info a {
+    color: #ff00a6;
+    font-weight: bold;
+}
+
